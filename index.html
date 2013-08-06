@@ -2,8 +2,32 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="brick.css">
   </head>
   <body>
-    <h1>Hello World</h1>
+    <x-layout id="app">
+      <header>
+        <x-appbar>
+          Ballin&quot;
+        </x-appbar>
+      </header>
+      <section>
+        <x-deck>
+          <x-card id="home">
+            <p>Y</p>
+          </x-card>
+          <x-card id="settings">
+            <p>Page 2</p>
+          </x-card>
+        </x-deck>
+      </section>
+      <footer>
+        <x-tabbar>
+          <x-tabbar-tab target-selector="#home" data-active>Home</x-tabbar-tab>
+          <x-tabbar-tab target-selector="#settings">Settings</x-tabbar-tab>
+        </x-tabbar>
+      </footer>
+    </x-layout>
+    <script src="brick.js"></script>
   </body>
 </html>
