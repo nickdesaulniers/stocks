@@ -1,0 +1,13 @@
+{
+  "name": "Stocks",
+  "description": "View your stocks",
+  "developer": {
+    "name": "Nick Desaulniers",
+    "url": "http://nickdesaulniers.github.io"
+  },
+  "type": "privileged",
+  "launch_path": "index.html",
+  "icons": {
+    "128": "/128.png"
+  }
+}
