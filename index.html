@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="brick.css">
+    <style>html, body { margin: 0; padding: 0; height: 100%; }</style>
   </head>
   <body>
     <x-layout id="app">
@@ -14,7 +15,8 @@
       <section>
         <x-deck>
           <x-card id="home">
-            <p>Home</p>
+            <input type="text" autocomplete="on" placeholder="SYMBOL" autofocus
+                   maxlength="5">
           </x-card>
           <x-card id="settings">
             <p>Settings</p>
